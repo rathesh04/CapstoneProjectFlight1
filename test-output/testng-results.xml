@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-09T12:45:58 IST" name="FlightBookingSuite" finished-at="2026-03-09T12:48:38 IST" duration-ms="159340">
+    <groups>
+    </groups>
+    <test started-at="2026-03-09T12:45:58 IST" name="FlightBookingTests" finished-at="2026-03-09T12:48:38 IST" duration-ms="159340">
+      <class name="Test.ChooseFlightPageTest2">
+        <test-method signature="chooseflighttest()[pri:0, instance:Test.ChooseFlightPageTest2@3349e9bb]" started-at="2026-03-09T12:46:13 IST" name="chooseflighttest" finished-at="2026-03-09T12:46:27 IST" duration-ms="13630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseflighttest -->
+      </class> <!-- Test.ChooseFlightPageTest2 -->
+      <class name="Test.ConfirmationPageTest4">
+        <test-method signature="purchasedetailstest()[pri:0, instance:Test.ConfirmationPageTest4@38d8f54a]" started-at="2026-03-09T12:47:10 IST" name="purchasedetailstest" finished-at="2026-03-09T12:47:54 IST" duration-ms="43889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchasedetailstest -->
+      </class> <!-- Test.ConfirmationPageTest4 -->
+      <class name="Test.E2ETest5">
+        <test-method signature="purchasedetailstest()[pri:0, instance:Test.E2ETest5@49e53c76]" started-at="2026-03-09T12:47:54 IST" name="purchasedetailstest" finished-at="2026-03-09T12:48:38 IST" duration-ms="43438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchasedetailstest -->
+      </class> <!-- Test.E2ETest5 -->
+      <class name="Test.WelcomePageTest1">
+        <test-method signature="WelcomePageTest1()[pri:0, instance:Test.WelcomePageTest1@130d63be]" started-at="2026-03-09T12:45:58 IST" name="WelcomePageTest1" finished-at="2026-03-09T12:46:13 IST" duration-ms="15005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WelcomePageTest1 -->
+      </class> <!-- Test.WelcomePageTest1 -->
+      <class name="Test.PurchaseDetailsPageTest3">
+        <test-method signature="purchasedetailstest()[pri:0, instance:Test.PurchaseDetailsPageTest3@409bf450]" started-at="2026-03-09T12:46:27 IST" name="purchasedetailstest" finished-at="2026-03-09T12:47:10 IST" duration-ms="43331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchasedetailstest -->
+      </class> <!-- Test.PurchaseDetailsPageTest3 -->
+    </test> <!-- FlightBookingTests -->
+  </suite> <!-- FlightBookingSuite -->
+</testng-results>
