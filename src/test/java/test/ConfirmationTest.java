@@ -35,7 +35,7 @@ public class ConfirmationTest {
         ConfirmationPage confirm = new ConfirmationPage(driver);
         if (confirm.confirmation()) {
 
-            confirm.takeScreenshot();
+            confirm.takeScreenshot("confirmation_page");
             System.out.println("Purchase Successful");
 
         } else {
