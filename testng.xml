@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="FlightBookingSuite" parallel="classes" thread-count="5">
+
+    <test name="FlightBookingTests">
+
+        <classes>
+
+            <class name="Test.WelcomePageTest1"/>
+            <class name="Test.ChooseFlightPageTest2"/>
+            <class name="Test.PurchaseDetailsPageTest3"/>
+            <class name="Test.ConfirmationPageTest4"/>
+            <class name="Test.E2ETest5"/>
+
+        </classes>
+
+    </test>
+
+</suite>

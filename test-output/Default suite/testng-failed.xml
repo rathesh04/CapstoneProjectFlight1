@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.WelcomePageTest1">
+      <class name="test.E2ETest">
         <methods>
-          <include name="WelcomePageTest1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="flightBookingTest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- Test.WelcomePageTest1 -->
+      </class> <!-- test.E2ETest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

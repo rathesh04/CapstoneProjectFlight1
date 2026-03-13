@@ -7,10 +7,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class PurchaseDetailsPage3 {
+public class PurchasePage {
 
     WebDriver driver;
-    public PurchaseDetailsPage3(WebDriver driver) {
+    public PurchasePage(WebDriver driver) {
         this.driver = driver;
     }
     public void passengerDetails(String name, String address, String city,String state, String zip) throws InterruptedException {
@@ -71,7 +71,7 @@ public class PurchaseDetailsPage3 {
 
         Thread.sleep(2000);
 
-        driver.findElement(By.xpath("//input[@value='Purchase Flight']")).click();
+        driver.findElement(By.xpath("//input[@value='Purchase Flight']")).click(); //click purchase flight button
 
         Thread.sleep(2000);
     }

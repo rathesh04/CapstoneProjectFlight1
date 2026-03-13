@@ -1,14 +1,14 @@
-package Test;
+package test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.WelcomePage1;
-import pages.ChooseFlightPage2;
+import pages.WelcomePage;
+import pages.ChooseFlightPage;
 
-public class ChooseFlightPageTest2 {
+public class ChooseFlightTest {
 
     @Test
     public void chooseflighttest() throws InterruptedException {
@@ -18,13 +18,13 @@ public class ChooseFlightPageTest2 {
         driver.get("https://blazedemo.com/");
         driver.manage().window().maximize();
 
-        WelcomePage1 welcome = new WelcomePage1(driver);
+        WelcomePage w = new WelcomePage(driver);
 
-        welcome.choosedepature("Boston");
-        welcome.choosedestination("London");
-        welcome.findflight();
+        w.choosedepature("Boston");
+        w.choosedestination("London");
+        w.findflight();
         
-        ChooseFlightPage2 choose = new ChooseFlightPage2(driver);
+        ChooseFlightPage choose = new ChooseFlightPage(driver);
         boolean flightsVisible = choose.verifyFlightsDisplayed();
 
         Assert.assertTrue(flightsVisible, "Flights list not displayed");

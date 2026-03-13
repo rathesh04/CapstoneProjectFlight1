@@ -3,19 +3,18 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ChooseFlightPage2 {
+public class ChooseFlightPage {
 	
 	WebDriver driver;
 	
-	public ChooseFlightPage2(WebDriver driver) {
+	public ChooseFlightPage(WebDriver driver) {
 		this.driver = driver;
 	}
 	
 	public boolean verifyFlightsDisplayed() {
 
         boolean result = driver.getPageSource().contains("Flights from");
-
-        return result;
+        return result; //Verify that a list of available flights is displayed
     }
 
 	
